@@ -1,7 +1,7 @@
 CSC 321 Final ....
 
 The script I used to capture all the differnt files on different nodes was ..
-# tcpdump -i eth0 -w wuclient.py.pcap
+# tcpdump -i eth0 -w wuclient.pcap
 After completing all pcap files, I used this script to merge all pcap files through Wireshark
 # mergecap -w full-take.pcap wuserver.pcap wuclient.pcap taskvent.pcap taskwork.pcap tasksink.pcap
  I used this script to seperate pcap files to weather.pcap 
