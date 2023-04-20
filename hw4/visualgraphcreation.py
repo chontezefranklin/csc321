@@ -1,0 +1,27 @@
+from prettytable import PrettyTable
+
+data = {
+    'google.com': ['ys-in-f101.1e100.net', 'ys-in-f102.1e100.net', 'ys-in-f113.1e100.net', 'ys-in-f138.1e100.net', 'ys-in-f139.1e100.net', 'ys-in-f100.1e100.net'],
+    'youtube.com': ['yx-in-f136.1e100.net', 'yx-in-f190.1e100.net', 'yx-in-f91.1e100.net', 'yx-in-f93.1e100.net'],
+    'facebook.com': ['edge-star-mini-shv-01-iad3.facebook.com'],
+    'yahoo.com': ['media-router-fp74.prod.media.vip.bf1.yahoo.com', 'media-router-fp73.prod.media.vip.ne1.yahoo.com', 'media-router-fp74.prod.media.vip.ne1.yahoo.com', 'media-router-fp74.prod.media.vip.gq1.yahoo.com', 'media-router-fp73.prod.media.vip.gq1.yahoo.com', 'media-router-fp73.prod.media.vip.bf1.yahoo.com'],
+    'amazon.com': ['s3-console-us-standard.console.aws.amazon.com'],
+    'wikipedia.org': ['text-lb.codfw.wikimedia.org'],
+    'google.co.in': ['yb-in-f94.1e100.net'],
+    'live.com': ['a-0010.a-msedge.net'],
+    'google.co.jp': ['ym-in-f94.1e100.net'],
+    'bing.com': ['a-0001.a-msedge.net'],
+    'instagram.com': ['instagram-p42-shv-01-iad3.fbcdn.net'],
+    'vk.com': ['srv194-139-240-87.vk.com', 'srv67-190-240-87.vk.com', 'srv72-190-240-87.vk.com', 'srv78-190-240-87.vk.com', 'srv158-137-240-87.vk.com'],
+    'google.de': ['atl14s20-in-f3.1e100.net'],
+    'yandex.ru': ['yandex.ru', 'yandex.ru', 'yandex.ru', 'yandex.ru'],
+    'google.co.uk': ['yt-in-f94.1e100.net'],
+    'ebay.com': ['ru.ebay.com', 'ru.ebay.com', 'highlnfe38-web-public-1-1-slcaz02.ebay.com', 'ru.ebay.com', 'highlnfe38-web-public-1-1-lvsaz03.ebay.com', 'highlnfe38-web-public-1-1-slcaz01.ebay.com'],
+    'google.fr': ['yo-in-f94.1e100.net'],
+    'google.com.br': ['yl-in-f94.1e100.net'],
+    'mail.ru': ['mail.ru', 'mail.ru', 'mail.ru', 'mail.ru'],
+    'netflix.com': ['ec2-3-225-92-8.compute-1.amazonaws.com', 'ec2-54-160-93-182.compute-1.amazonaws.com', 'ec2-3-211-157-115.compute-1.amazonaws.com'],
+    'google.it': ['atl26s18-in-f3.1e100.net'],
+    'google.ru': ['yl-in-f94.1e100.net'],
+    'google.es': ['atl14s09-in-f3.1e100.net'],
+   
