@@ -2,7 +2,7 @@ import socket
 import pandas as pd
 import graphviz
 
-# Read domains from CSV file
+# Read domains from TSV file
 domains = pd.read_csv("domains.tsv", sep='\t')['domain']
 
 # Initialize variables
@@ -12,16 +12,16 @@ last = {}
 addr = {}
 node = 300
 
-# Initialize graph
+# Initialize graph to be more efficient
 dot = graphviz.Digraph(engine='fdp', comment='digraphtesting')
 
-# Loop through domains
+# Loop through domains until prompted to pass
 for dom in domains:
     try:
         # Perform forward DNS lookup
         address = socket.getaddrinfo(dom, 443, type=socket.SOCK_STREAM)
 
-        # Add node for domain to graph
+        # Add node for domain across to graph
         main_dom += 1
         with dot.subgraph() as s:
             s.node(str(main_dom), dom)
